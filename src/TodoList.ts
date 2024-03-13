@@ -20,4 +20,8 @@ export class ToDoList {
     add (task: Task) {
         this.tasks.push(task)
     }
+
+    getTasks () {
+        return this.tasks
+    }
 }
