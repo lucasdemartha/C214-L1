@@ -29,4 +29,32 @@ describe('ToDoList', () => {
       expect(tasks).toEqual([])
     })
   })
+
+  describe('Update tasks', () => {
+    test('should update a task', () => {
+      const todoInstance = new ToDoList()
+      todoInstance.add(anyTask)
+      const updatedTask = {
+        title: 'updated_title',
+        description: 'updated_description',
+        targetDate: '31/12/2025',
+        type: 'updated_type',
+        priority: '2',
+        subTasks: []
+      }
+      todoInstance.updateTask(0, updatedTask)
+      const tasks = todoInstance.getTasks()
+      expect(tasks).toEqual([updatedTask])
+    })
+  })
+
+  describe('Remove tasks', () => {
+    test('should remove a task', () => {
+      const todoInstance = new ToDoList()
+      todoInstance.add(anyTask)
+      todoInstance.removeTask(0)
+      const tasks = todoInstance.getTasks()
+      expect(tasks).toEqual([])
+    })
+  })
 })
