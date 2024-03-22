@@ -1,4 +1,4 @@
-# Aula 02
+# Aula 04
 
 📟 Comandos utilizados durante a aula:
 Configuração e instalação de bibliotecas
