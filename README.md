@@ -1,46 +1,13 @@
-# Aula 04
+# AULA 06
 
-📟 Comandos utilizados durante a aula:
-Configuração e instalação de bibliotecas
-npm init -y
+- Estamos utilizando o NodeJS v20.11.1. Para melhor acompanhamento das aulas, é recomendado instalar a mesma versão em [nodejs.org](https://nodejs.org/en/)
 
-Inicialização do projeto NodeJS
-npm install -D typescript
+## Comandos:
 
-Instalação do typescript, a linguagem de programação que estaremos utilizando durante o curso
-npm install -D @types/node
+```
+npm create vite@latest
+```
 
-Adiciona algumas tipagens
-npx tsc --init
+## Links Úteis:
 
-Inicializa as configurações de compilação do typescript
-npm install -D ts-node-dev
-
-Biblioteca para execução do código typescript
-npm install husky
-
-Instalação do husky, uma biblioteca para execução de scripts com o git
-npx husky init
-
-Configuração padrão do husky
-npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-standard
-
-Instalação do EsLint
-Execução de scripts do NodeJS
-npm start
-
-Executa o código em ambiente de desenvolvimento
-npm run start:prod
-
-Compila e executa o código compilado em JavaScript
-npm run build
-
-Compila o código para JavaScript
-Links Úteis:
-EsLint
-
-Husky
-
-Npm
-
-NodeJs
+- [Vite](https://vitejs.dev/)
