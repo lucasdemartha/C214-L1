@@ -1,9 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useCallback, useEffect, useState } from "react";
 import "./App.css";
-import { Task } from "./ToDoList/models/Task";
-import { LocalStorageAdapter } from "./ToDoList/repository/LocalStorageAdapter";
 import { ToDoList } from "./ToDoList/services/TodoList";
+import { LocalStorageAdapter } from "./ToDoList/repository/LocalStorageAdapter";
+import { Task } from "./ToDoList/models/Task";
 
 type FormData = {
   title: string;

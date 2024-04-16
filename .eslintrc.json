@@ -6,4 +6,4 @@
       "standard",
       "plugin:@typescript-eslint/recommended"
     ]
-}
+  }
