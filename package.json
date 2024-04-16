@@ -1,11 +1,12 @@
 {
-  "name": "c214-l1",
+  "name": "todolist",
   "version": "1.0.0",
-  "description": "Repositório do laboratório C214",
+  "description": "Aula introdutoria sobre git",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node client.ts",
     "start:prod": "npm run build && node dist/index.js",
+    "run:prod": "node dist/index.js",
     "build": "tsc",
     "prepare": "husky",
     "test:unit": "jest",

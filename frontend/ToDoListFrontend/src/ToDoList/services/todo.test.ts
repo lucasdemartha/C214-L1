@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { ToDoList } from './TodoList'
 import { Task, UpdateTask } from '../models/Task'
 import { TodoListRepository } from '../repository/TodoListRepository'
-import { ToDoList } from './TodoList'
 
 const anyTask: Task = {
   id: 1,
